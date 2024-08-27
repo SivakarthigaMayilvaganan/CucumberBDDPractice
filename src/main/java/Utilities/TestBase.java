@@ -33,8 +33,6 @@ public class TestBase {
 					}
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		
-		
 		}
 		return driver;
 		
